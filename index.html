@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portofolio</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>John</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <!-- Hamburger Icon -->
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+
+        <!-- Dropdown Menu for Mobile -->
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="main.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Hey I'm
+                    <span>John</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a<span class="typewriter-text"></span></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">with one year of programming experience, specializing in Python, HTML, CSS, and JavaScript. Over the past year, I have focused on developing my skills in building responsive websites and dynamic interactions using HTML, CSS, and JavaScript. On the backend side, I have explored programming concepts and techniques in Python, learning how to create efficient scripts and manage the logic of web applications. Additionally, I have started exploring databases with MySQL, building a strong foundation to develop more complex applications in the future.</p>
+                <div class="social-links">
+                    <a href="https://github.com/MasterOfShadows1990/MasterOfShadows1990" target="_blank"><i class="fa-brands fa-github" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"></i></a>
+                    <a href="https://www.facebook.com/ionut.saracut/" target="_blank" ><i class="fa-brands fa-facebook" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200"></i></a>
+                    <a href="https://www.linkedin.com/in/saracut-ioan-746363285/" target="_blank"><i class="fa-brands fa-linkedin" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1100"></i></a>
+                    <a href="https://www.instagram.com/ionut_saracut_/" target="_blank"><i class="fa-brands fa-instagram" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="mailto:ionutsaracut00@gmail.com">
+                        <button>Hire Me</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="main.jpg" alt="">
+                </div>
+                <div class="right">
+                    <div class="topic">Designing is My Passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">I am a passionate web developer, specialized in creating attractive and functional web pages using technologies such as HTML, CSS, JavaScript, and Python. For me, design is not just about the visual aspect of a website, but also about how users interact with it. I enjoy finding creative solutions to make the interface as intuitive and engaging as possible, focusing on the details that make a difference.</p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <button class="btn btn-color-2" 
+                        onclick="window.open('Ioan-Sebastian_Srcu_CV (6).pdf')">
+                        Download CV     
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        Skills Reflect Our Knowledge
+                    </div>
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">In the ever-evolving landscape of web development, I believe that skills are a direct reflection of our knowledge and dedication. I have cultivated a diverse set of skills in various technologies, including HTML, CSS, JavaScript, and Python, allowing me to build robust and user-friendly web applications. My proficiency in these languages empowers me to create dynamic and visually appealing interfaces that enhance user experience.</p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="num"> 1 </div>
+                        <div class="exp">
+                            Year Of <br/> Experience
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">PYTHON</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">100%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">JavaScript</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>I'm a junior web developer with 1 year of experience, working with HTML, CSS, JavaScript, and Python. I'm currently learning MySQL and Django. I enjoy building clean, responsive websites and continuously improving my skills to grow in the field.</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graphic Design</div>
+                    <p>I'm a beginner graphic designer with a creative eye and a passion for visual storytelling. I work with tools like Photoshop and Blender to create clean, modern designs, and I'm always exploring new ways to improve my skills and bring ideas to life.</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Software Development</div>
+                    <p>I'm an aspiring software developer with a strong foundation in Python and a growing interest in building real-world applications. I'm focused on writing clean, efficient code and continuously learning new technologies to expand my skill set.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                <span>Contact Me</span>
+            </div>
+            <div class="text">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+                <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                    <a href="mailto:ionutsaracut00@gmail.com">
+                        <button>Let's Chat</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span>Created By
+                <a href="#">Saracut-Ioan</a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+
+        
+        function hamburg() {
+            const dropdown = document.querySelector('.dropdown');
+            dropdown.style.display = 'block';
+        }
+
+        function cancel() {
+            const dropdown = document.querySelector('.dropdown');
+            dropdown.style.display = 'none';
+        }
+
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
